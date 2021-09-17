@@ -1,0 +1,19 @@
+/*todo el codigo de estilo General ej: Body h1 h2 h3 etc*/
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-proyect);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}

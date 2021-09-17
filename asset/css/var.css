@@ -1,0 +1,28 @@
+/*variables a utilizar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap%27');
+:root {
+    /*========== Colors ==========*/
+    --color-first: #009ee2;
+    --color-first-light: #0a99d667;
+    --color-second: #ebf2fc;
+    --color-dark: #373736;
+    --color-text: #666666;
+    --color-bg: #FFFFFF;
+
+
+    /*========== Font and typography ==========*/
+    --font-proyect:'Montserrat', arial;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --parrafo-font-size: .85rem;
+    
+    
+    /*========== Margenes ==========*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+}

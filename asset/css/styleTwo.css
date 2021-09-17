@@ -1,0 +1,228 @@
+.fondoVideo {
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(//grupozea.com/wp-content/uploads/2020/09/portada-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cajainformacion {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.btnPlay {
+  font-size: 4.3rem;
+  color: #009ee2;
+}
+
+
+hr {
+  width: 30px;
+  border: 0;
+    border-top: 2px solid #999; 
+    border-bottom: 2px solid #333;
+    height:0;
+}
+
+.PreTitulo {
+  font-size: 14px;
+  padding-left: 10px;
+  margin-top: 3px;
+}
+
+.Titulo {
+  font-size: 3rem;
+}
+
+.TextoInfo {
+  color: #4a4f55;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+img,
+a {
+  display: block;
+  height: 100%;
+}
+
+.imgP {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gridd {
+  display: grid;
+  grid-gap: 0;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.gridd li {
+  position: relative;
+}
+.gridd li:hover ~ li:last-child:after,
+.gridd li:last-child:hover:after,
+.gridd li:hover ~ li:last-child:before,
+.gridd li:last-child:hover:before {
+  opacity: 1;
+  transition: 1s ease;
+}
+.gridd li:last-child:after,
+.gridd li:last-child:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  pointer-events: none;
+  clip-path: polygon(var(--offset) var(--offset), var(--offset) calc(100% - var(--offset)), calc(100% - var(--offset)) calc(100% - var(--offset)), calc(100% - var(--offset)) var(--offset));
+  -webkit-clip-path: polygon(var(--offset) var(--offset), var(--offset) calc(100% - var(--offset)), calc(100% - var(--offset)) calc(100% - var(--offset)), calc(100% - var(--offset)) var(--offset));
+  opacity: 0;
+  transition: opacity 1s, transform 1s 1s, background 1s;
+}
+.gridd li:last-child:after {
+  mix-blend-mode: multiply;
+  background: #aaafc3;
+}
+.gridd li:last-child:before {
+  backdrop-filter: grayscale(100%) blur(2px);
+  -webkit-backdrop-filter: grayscale(100%) blur(2px);
+}
+.gridd li:nth-child(1):hover ~ li:last-child:after {
+  background: #1A237E;
+}
+.gridd li:nth-child(2):hover ~ li:last-child:after {
+  background: #b5a1b7;
+}
+.gridd li:nth-child(3):hover ~ li:last-child:after {
+  background: #aaafc3;
+}
+.gridd li:nth-child(4):hover ~ li:last-child:after {
+  background: #daa384;
+}
+.gridd li:nth-child(5):hover ~ li:last-child:after {
+  background: #daa384;
+}
+.gridd li:nth-child(6):hover ~ li:last-child:after {
+  background: #daa384;
+}
+.gridd li:last-child:hover:after {
+  background: #04a843;
+}
+
+.gridd {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 50%);
+}
+.gridd li:last-child:after,
+.gridd li:last-child:before {
+  left: 100%;
+  transform: translate3d(-100%, -100%, 0);
+}
+.gridd li:nth-child(1):hover ~ li:last-child:after,
+.gridd li:nth-child(1):hover ~ li:last-child:before {
+  transform: translate3d(-300%, -100%, 0);
+}
+.gridd li:nth-child(2):hover ~ li:last-child:after,
+.gridd li:nth-child(2):hover ~ li:last-child:before {
+  transform: translate3d(-200%, -100%, 0);
+}
+.gridd li:nth-child(3):hover ~ li:last-child:after,
+.gridd li:nth-child(3):hover ~ li:last-child:before {
+  transform: translate3d(-100%, -100%, 0);
+}
+.gridd li:nth-child(4):hover ~ li:last-child:after,
+.gridd li:nth-child(4):hover ~ li:last-child:before {
+  transform: translate3d(-300%, 0%, 0);
+}
+.gridd li:nth-child(5):hover ~ li:last-child:after,
+.gridd li:nth-child(5):hover ~ li:last-child:before {
+  transform: translate3d(-200%, 0%, 0);
+}
+.gridd li:nth-child(6):hover ~ li:last-child:after,
+.gridd li:nth-child(6):hover ~ li:last-child:before {
+  transform: translate3d(-200%, 0%, 0);
+}
+.gridd li:last-child:hover:after,
+.gridd li:last-child:hover:before {
+  transform: translate3d(-100%, 0%, 0);
+}
+
+@media (max-width: 60em) {
+  .gridd {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 25%);
+  }
+  .gridd li:last-child:after,
+.gridd li:last-child:before {
+    left: 0%;
+    transform: translate3d(-50%, -150%, 0);
+  }
+  .gridd li:nth-child(1):hover ~ li:last-child:after,
+.gridd li:nth-child(1):hover ~ li:last-child:before {
+    transform: translate3d(-100%, -300%, 0);
+  }
+  .gridd li:nth-child(2):hover ~ li:last-child:after,
+.gridd li:nth-child(2):hover ~ li:last-child:before {
+    transform: translate3d(0%, -300%, 0);
+  }
+  .gridd li:nth-child(3):hover ~ li:last-child:after,
+.gridd li:nth-child(3):hover ~ li:last-child:before {
+    transform: translate3d(-100%, -200%, 0);
+  }
+  .gridd li:nth-child(4):hover ~ li:last-child:after,
+.gridd li:nth-child(4):hover ~ li:last-child:before {
+    transform: translate3d(0%, -200%, 0);
+  }
+  .gridd li:nth-child(5):hover ~ li:last-child:after,
+.gridd li:nth-child(5):hover ~ li:last-child:before {
+    transform: translate3d(0%, -200%, 0);
+  }
+  .gridd li:nth-child(6):hover ~ li:last-child:after,
+.gridd li:nth-child(6):hover ~ li:last-child:before {
+    transform: translate3d(0%, -200%, 0);
+  }
+  .gridd li:last-child:hover:after,
+.gridd li:last-child:hover:before {
+    transform: translate3d(0%, 0%, 0);
+  }
+
+  :root {
+    --offset: 0;
+  }
+}
+.description {
+  font-size: 1.25rem;
+  position: absolute;
+  display: block;
+  right: 2rem;
+  left: 2rem;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  margin: auto;
+  color: white;
+  z-index: 100;
+  opacity: 0;
+  transform: translate3d(0, -50%, 0);
+  transition: 0.3s 0s;
+}
+
+.letra{
+  font-family: var(--font-proyect);
+}
+
+li:hover .description {
+  opacity: 1;
+  transition: 0.6s 0.3s;
+}

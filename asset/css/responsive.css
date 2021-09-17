@@ -1,0 +1,201 @@
+/*Secciones de estilo adaptadas a dispositivos moviles*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 360px) {    
+    .cajaInformacion {
+        width: 100%!important;
+    }
+    
+    #sloganPD h1 {
+        width: 100%;
+        font-size: 2.5rem!important;
+    }
+    
+}
+
+@media (max-width: 576px) {     
+    .seccion-footer {
+        width: 100%;
+    }
+
+    .cajaLogo {
+        width: 100vw!important;
+    }
+
+    .cajaLinea .info{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) { 
+    .seccion-footer {
+        width: 100%;
+    }
+
+    .cajaLogo {
+        width: 100vw!important;
+    }
+
+    .cajaLinea .info{
+        display: none;
+    }
+
+    .cajaDireccion {
+        margin: auto;
+    } 
+
+    .h2-new {
+        text-align: center;
+        padding-top: 20px;
+        color: var(--color-first);
+    }
+
+    .second-columns p {
+        text-align: justify;
+        padding: 0px 10px 0px 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .seccion-footer {
+        width: 100%;
+    }
+
+    .cajaLogo {
+        width: 100vw!important;
+    }
+
+    .cajaLinea .info{
+        display: none;
+    }
+
+    .cajaListaServicios {
+        width: 80vw!important;
+    }
+
+    .cajaDireccion {
+        width: 100%;
+        margin: auto;
+    } 
+
+    .h2-new {
+        font-size: 2.5rem;
+        line-height: 1;
+        color: var(--color-first);
+        padding:20px 0px 20px 0px;
+        text-align: center;
+    }
+    
+    .second-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+    }
+
+    .second-columns p {
+        font-size: 15px;
+        font-size: 1rem;    
+        line-height: 1.333333334;
+        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        text-align: justify;
+        margin: auto;
+    } 
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+    .seccion-footer {
+        width: 100%;
+    }
+    .cajaDireccion {
+        margin: auto;
+    }   
+
+    .h2-new {
+        font-size: 2.5rem;
+        line-height: 1;
+        color: var(--color-first);
+        padding:20px 0px 20px 0px;
+        text-align: center;
+    }
+    
+    .second-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+    }
+
+    .second-columns p {
+        font-size: 15px;
+        font-size: 1rem;    
+        line-height: 1.333333334;
+        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        text-align: justify;
+        margin: auto;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1200px) { 
+    .seccion-footer {
+        width: 100%;
+    }
+
+    .imgNew {
+        padding-right: 70px;
+    }
+
+    .h2-new {
+        font-size: 2.5rem;
+        line-height: 1;
+        color: var(--color-first);
+        padding:20px 0px 20px 0px;
+        text-align: center;
+    }
+    
+    .second-columns {
+    padding-top: 80px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    
+    -webkit-column-gap: 2rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2rem; /* Firefox */
+    column-gap: 2rem;
+    }
+
+    .second-columns p {
+        font-size: 15px;
+        font-size: 1rem;    
+        line-height: 1.333333334;
+        padding: 10px 5px 10px 20px;
+        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        text-align: justify;
+        margin: auto;
+    }
+    
+}
